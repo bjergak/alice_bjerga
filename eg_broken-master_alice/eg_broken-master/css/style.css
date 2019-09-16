@@ -1,6 +1,6 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color: #444;
+  color: #38697A;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
 
@@ -11,11 +11,13 @@ p {
   flex-direction: row;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #A9D8CF;
 }
 footer {
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #38697A;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 /*-- Main Menu Styles--*/
@@ -27,16 +29,16 @@ nav ul {
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #38697A;
   text-decoration: none;
 
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: #AB6570;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: #38697A;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -56,6 +58,7 @@ header h1 {
   padding: 0 auto;
 }
 .small {
+  color: #7A97A2;
   margin-top: 1em;
   font-weight: 900;
   text-transform: uppercase;
@@ -80,6 +83,7 @@ article figure {
   float:right;
 }
 article figcaption {
+color: #7A97A2;
 font-family: 'Lato', sans-serif;
 font-size: 16px;
 }
@@ -95,7 +99,7 @@ a.button {
   border: 1px solid #888;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #38697A;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -104,7 +108,7 @@ a.button {
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
-  color: #222;
+  color: #AB6570;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
