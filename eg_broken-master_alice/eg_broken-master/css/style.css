@@ -14,16 +14,16 @@ nav, footer {
   background-color: #444;
 }
 footer {
-  text-align: center;
   padding: 1em 0 .3em 0;
   color: #D0D0D0;
+  text-align: center;
 }
 /*-- Main Menu Styles--*/
 nav ul {
   list-style: none;
   padding: 1em;
   display: flex;
-  flex-direction: horizontal row;
+  /*flex-direction: horizontal row;*/
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
@@ -70,12 +70,18 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
+.dropcap {
+font-size: 50px;
+line-height: 40px;
+}
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
   float:right;
 }
 article figcaption {
+font-family: 'Lato', sans-serif;
+font-size: 16px;
 }
 .pagination {
   margin-top: 2em;

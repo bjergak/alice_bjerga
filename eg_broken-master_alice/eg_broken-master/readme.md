@@ -21,7 +21,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Use float to position the article figure on the right-hand side of the text. /*Done*/
 
-+ Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text.
++ Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text. /*Done*/
 
 + Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page. /*Done*/
 
