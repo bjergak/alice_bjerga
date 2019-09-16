@@ -15,7 +15,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Use flex display to lay out the main menu in a horizontal row and use justify-content to distribute the links as space-between. /*Done*/
 
-+ Use left and right auto margin to center both the header and article sections horizontally on the page.
++ Use left and right auto margin to center both the header and article sections horizontally on the page./*Done*/
 
 + Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size.
 
@@ -23,7 +23,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text.
 
-+ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page.
++ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page. /*Done*/
 
 + Add your name to the footer copyright. /*Done*/
 
