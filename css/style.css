@@ -1,0 +1,120 @@
+/*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
+body {
+  color: #38697A;
+  font-size: 16px;
+  font-family: 'Gentium Book Basic', serif;
+
+}
+p {
+  margin-bottom: .67em;
+/*  display: flex;
+  flex-direction: row;*/
+}
+nav, footer {
+  background-color: #A9D8CF;
+}
+footer {
+  padding: 1em 0 .3em 0;
+  color: #38697A;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p {
+  text-align: center;
+
+}
+/*-- Main Menu Styles--*/
+nav ul {
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  /*flex-direction: horizontal row;*/
+  justify-content: space-between;
+}
+nav a:link, nav a:visited {
+  color: #38697A;
+  text-decoration: none;
+
+}
+nav a:hover, nav a:active  {
+  color: #AB6570;
+  text-decoration: underline;
+}
+nav a.active {
+  color: #38697A;
+}
+/*-- Hero Unit Styles--*/
+header {
+  width: 510px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+header img {
+  width: 100%;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.small {
+  color: #7A97A2;
+  margin-top: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+/*-- Article Styles--*/
+article {
+  width: 768px;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dropcap {
+font-size: 55px;
+line-height: 40px;
+}
+article figure {
+  width: 39%;
+  margin: 0 0 1.25em 1.25em;
+  float:right;
+}
+article figcaption {
+color: #7A97A2;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+}
+.pagination {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 96%;
+  display: flex;
+  flex-direction: horizontal row;
+  justify-content: space-evenly;
+}
+a.button {
+  border: 1px solid #38697A;
+  padding: .4em 1em .4em 1em;
+  text-decoration: none;
+  color: #38697A;
+  border-radius: 200px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 80%;
+}
+a.button:hover, a.button:active {
+  border: 1px solid #AB6570;
+  text-decoration: none;
+  color: #AB6570;
+}
+/*-- changes header and article width on small screens --*/
+@media screen and (max-width: 768px) {
+  header {width: 96%;}
+  article {width: 96%;}
+}
