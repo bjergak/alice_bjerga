@@ -96,7 +96,7 @@ font-size: 16px;
   justify-content: space-evenly;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #38697A;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
   color: #38697A;
@@ -106,7 +106,7 @@ a.button {
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #AB6570;
   text-decoration: none;
   color: #AB6570;
 }
