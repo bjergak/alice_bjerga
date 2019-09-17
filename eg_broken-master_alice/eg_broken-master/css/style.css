@@ -7,8 +7,8 @@ body {
 }
 p {
   margin-bottom: .67em;
-  display: flex;
-  flex-direction: row;
+/*  display: flex;
+  flex-direction: row;*/
 }
 nav, footer {
   background-color: #A9D8CF;
@@ -18,7 +18,10 @@ footer {
   color: #38697A;
   margin-left: auto;
   margin-right: auto;
+}
+footer p {
   text-align: center;
+
 }
 /*-- Main Menu Styles--*/
 nav ul {
